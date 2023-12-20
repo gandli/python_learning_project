@@ -3,8 +3,8 @@
 """
 
 # 定义两个数字
-NUMBER1 = int(input("Enter first number or press enter for default (12): ") or 12)
-NUMBER2 = int(input("Enter second number or press enter for default (3): ") or 3)
+NUMBER1 = int(input("输入第一个数字或按回车键设置默认值 (12): ") or 12)
+NUMBER2 = int(input("输入第二个数字或按回车键设置默认值 (3): ") or 3)
 
 # 加法
 print(f"加法结果:{NUMBER1+NUMBER2}")
