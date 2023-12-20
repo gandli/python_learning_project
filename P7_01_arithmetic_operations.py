@@ -3,26 +3,17 @@
 """
 
 # 定义两个数字
-NUMBER1 = int(input("输入第一个数字或按回车键设置默认值 (12): ") or 12)
-NUMBER2 = int(input("输入第二个数字或按回车键设置默认值 (3): ") or 3)
+number1 = float(input("输入第一个数字或按回车键设置默认值 (12): ") or 12)
+number2 = float(input("输入第二个数字或按回车键设置默认值 (3): ") or 3)
 
-# 加法
-print(f"加法结果:{NUMBER1+NUMBER2}")
-
-# 减法
-print(f"减法结果:{NUMBER1-NUMBER2}")
-
-# 乘法
-print(f"乘法结果:{NUMBER1*NUMBER2}")
-
-# 除法（浮点数结果）
-print(f"除法结果:{ NUMBER1 / NUMBER2 }")
-
-# 整数除法
-print(f"整数除法结果:{ NUMBER1 // NUMBER2 }")
-
-# 取余
-print(f"取余结果:{ NUMBER1 % NUMBER2 }")
-
-# 幂运算
-print(f"幂运算结果:{ NUMBER1 ** NUMBER2 }")
+print(
+    f"第一个数字: {number1}，类型: {type(number1)}\n"
+    f"第二个数字: {number2}，类型: {type(number2)}\n"
+    f"加法结果:{number1+number2}\n"
+    f"减法结果:{number1-number2}\n"
+    f"乘法结果:{number1*number2}\n"
+    f"除法结果:{ number1 / number2 }\n"
+    f"整数除法结果:{ number1 // number2 }\n"
+    f"取余结果:{ number1 % number2 }\n"
+    f"幂运算结果:{ number1 ** number2 }"
+)
